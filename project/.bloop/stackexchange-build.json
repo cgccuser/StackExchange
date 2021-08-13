@@ -18,7 +18,7 @@
         "classpath": [
             "C:\\Users\\yasht\\StackExchange\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\sbt\\1.4.7\\sbt-1.4.7.jar",
             "C:\\Users\\yasht\\.sbt\\boot\\scala-2.12.12\\lib\\scala-library.jar",
-            "C:\\Users\\yasht\\StackExchange\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\ch\\epfl\\scala\\sbt-bloop_2.12_1.0\\1.4.8\\sbt-bloop-1.4.8.jar",
+            "C:\\Users\\yasht\\StackExchange\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\ch\\epfl\\scala\\sbt-bloop_2.12_1.0\\1.4.8-19-4d9f966b\\sbt-bloop-1.4.8-19-4d9f966b.jar",
             "C:\\Users\\yasht\\StackExchange\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\ch\\epfl\\lamp\\sbt-dotty_2.12_1.0\\0.5.2\\sbt-dotty-0.5.2.jar",
             "C:\\Users\\yasht\\StackExchange\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalameta\\sbt-scalafmt_2.12_1.0\\2.4.2\\sbt-scalafmt-2.4.2.jar",
             "C:\\Users\\yasht\\StackExchange\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\main_2.12\\1.4.7\\main_2.12-1.4.7.jar",
@@ -217,12 +217,12 @@
                 {
                     "organization": "ch.epfl.scala",
                     "name": "sbt-bloop",
-                    "version": "1.4.8",
+                    "version": "1.4.8-19-4d9f966b",
                     "configurations": "default",
                     "artifacts": [
                         {
                             "name": "sbt-bloop",
-                            "path": "C:\\Users\\yasht\\StackExchange\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\ch\\epfl\\scala\\sbt-bloop_2.12_1.0\\1.4.8\\sbt-bloop-1.4.8.jar"
+                            "path": "C:\\Users\\yasht\\StackExchange\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\ch\\epfl\\scala\\sbt-bloop_2.12_1.0\\1.4.8-19-4d9f966b\\sbt-bloop-1.4.8-19-4d9f966b.jar"
                         }
                     ]
                 },
