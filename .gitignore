@@ -1,6 +1,9 @@
-.bloop
-.bsp
-.metals
-.vscode
-null
-target
+.bloop/
+.bsp/
+.metals/
+.vscode/
+null/
+target/
+
+metals.sbt
+*.jar

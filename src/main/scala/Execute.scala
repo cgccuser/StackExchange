@@ -7,7 +7,8 @@ def executeProg(program: String, inputs: Seq[String]): Unit =
   val initStack = inputs.foldLeft(SNil: Stack)((stack, input) => parseStackLiteral(input) -: stack)
   val progCmd = programToCommand(program)
   try
-    progCmd(initStack)
+    val res = progCmd(initStack)
+    println(res)
   catch
     case e: StackOverflowError => throw new Error(
       "Congratulations! You have demonstrated your mastery in Stack Exchange by causing a stack overflow!",
@@ -51,7 +52,7 @@ def parseStackLiteral(s: String): Stack =
  */
 def programToCommand(prog: String): Command =
   def helper(prevCmd: Command, index: Int): (Command, Int) =
-    println(s"In helper, ind=$index")
+    // println(s"In helper, ind=$index")
     if index == prog.size then
       (prevCmd, index)
     else
